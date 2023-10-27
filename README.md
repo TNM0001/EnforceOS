@@ -4,7 +4,7 @@
 <img src="media/repo-logo.png" width="200"><p align="center"></p>
 <h1 align="center">EnforceOS</h1>
 <p align="center">
-  <a href="https://github.com/RebornXP/rebornxp/actions/workflows/pages/pages-build-deployment">
+  <a href="https://github.com/TNM0001/EnforceOS/actions/workflows/pages/pages-build-deployment">
     <img src="https://github.com/TNM0001/EnforceOS/actions/workflows/pages/pages-build-deployment/badge.svg" alt="pages-build-deployment">
   </a>
   <br>
