@@ -14,3 +14,8 @@
   </p>
 
 <h2 align="center">Features</h2>
+
+### EYE Terminal
+
+EnforceOS features its own hybrid terminal called "Execute Your Environment", it features familiar commands and some unique ones too. It works as you would expect a terminal to do so.
+
