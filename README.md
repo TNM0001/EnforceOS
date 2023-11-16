@@ -19,6 +19,7 @@
   The following are secret codes hardcoded into the calculator:
   7530= will redirect you to here. (tnm.lol)
   8008= will display one of the 8 pictures of NSFW as art.
+  9012= will redirect you to https://nsfw.tnm.lol which is defined below.
   
   https://nsfw.tnm.lol is the 18+ only website hosting NSFW content as art, think of it like a museum or sort of an internet archive.
 </p>
