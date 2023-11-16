@@ -8,10 +8,17 @@
     <!-- Status indicator -->
     <img src="https://img.shields.io/badge/Status-Updating-yellow" alt="Status: Work In Progress">
   </p>
-  <p align="center">EnforceOS is a Web-based GUI Desktop Environment, hybrid between modern Windows and modern Debian-based Linux. Made specially for low power platforms, built for optimized Web 2.0 search engines such as Google Chrome or Firefox. This is an open-source project hosted on GitHub Pages using HTTPS protocol for secure connections, coded with HTML, CSS, and JavaScript.
+  <p align="center">EnforceOS is a Web-based GUI Desktop Environment, hybrid between modern Windows and modern Debian-based Linux. Made with mostly JavaScript, and some HTML/CSS. Features its own App Store, code editor, and virtual file system.
   </p>
 
-  <h2 align="center">Features</h2>
+  <h2 align="center">The EOS-Project</h2>
 
-  -EnforceOS features its own hybrid terminal called "Execute Your Environment", it features familiar commands and some unique ones too. It works as you would expect a terminal to do so.
+  The EOS-Project is a collection of websites/programs made to show the power of one, still-learning, developer.
+
+  https://home.tnm.lol is the "home" of the EOS-Project, designed as a calculator with hidden codes hardcoded which executes different things like redirects or Easter Eggs.
+  The following are secret codes hardcoded into the calculator:
+  7530= will redirect you to here. (tnm.lol)
+  8008= will display one of the 8 pictures of NSFW as art.
+  
+  https://nsfw.tnm.lol is the 18+ only website hosting NSFW content as art, think of it like a museum or sort of an internet archive.
 </p>
