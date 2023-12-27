@@ -15,6 +15,7 @@
   The EOS-Project is a collection of websites/programs made to show the power of one, still-learning, developer.
   
   https://home.tnm.lol is the "home" of the EOS-Project, designed as a calculator with hidden codes hardcoded which executes different things like redirects or Easter Eggs.  
+  
   The following are secret codes hardcoded into the calculator:  
   7530= will redirect you to here. (tnm.lol)  
   8008= will display one of the 8 pictures of NSFW as art.  
