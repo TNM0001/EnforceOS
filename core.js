@@ -1,25 +1,45 @@
-document.addEventListener("contextmenu", function (e) {
-  e.preventDefault();
+function detectDevToolChange() {
+  var widthThreshold = window.outerWidth - window.innerWidth > threshold;
+  var heightThreshold = window.outerHeight - window.innerHeight > threshold;
+  var orientation = widthThreshold ? 'vertical' : 'horizontal';
+
+  if (!(heightThreshold && widthThreshold) &&
+       ((window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized) || widthThreshold || heightThreshold)) {
+      window.location.href = 'about:blank';
+  }
+}
+
+var threshold = 160;
+window.addEventListener('resize', detectDevToolChange);
+
+var addHandler = function (element, type, handler) {
+  if (element.addEventListener) {
+      element.addEventListener(type, handler, false);
+  } else if (element.attachEvent) {
+      element.attachEvent("on" + type, handler);
+  } else {
+      element["on" + type] = handler;
+  }
+};
+
+var preventDefault = function (event) {
+  if (event.preventDefault) {
+      event.preventDefault();
+  } else {
+      event.returnValue = false;
+  }
+};
+
+addHandler(window, "contextmenu", function (event) {
+  preventDefault(event);
 });
 
-document.onkeydown = function (e) {
+document.onkeydown = function (event) {
   if (event.keyCode == 123) {
       return false;
-  }
-
-  if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) {
+  } else if (event.ctrlKey && event.shiftKey && (event.keyCode == 73 || event.keyCode == 74)) {
       return false;
-  }
-  
-  if (e.ctrlKey && e.shiftKey && e.keyCode == "C".charCodeAt(0)) {
-      return false;
-  }
-
-  if (e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)) {
-      return false;
-  }
-
-  if (e.ctrlKey && e.keyCode == "U".charCodeAt(0)) {
+  } else if (event.ctrlKey && event.keyCode == 85) {
       return false;
   }
 };
